@@ -189,20 +189,6 @@ Average metrics are also calculated and displayed.
 
 ---
 
-# Future Improvements
-
-- Add more scheduling algorithms:
-  - Round Robin
-  - FCFS
-  - SJF
-  - Multilevel Queue
-- Gantt chart visualization
-- Export results to CSV/PDF
-- Real-time simulation animation
-- Advanced statistical analysis
-
----
-
 # Educational Purpose
 
 This project was developed for educational purposes to help understand:
