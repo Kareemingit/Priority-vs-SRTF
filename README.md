@@ -21,7 +21,7 @@ The simulator evaluates and compares the algorithms using:
 - Compare scheduling behavior and execution order
 - Calculate performance metrics for each process
 - Analyze average scheduling statistics
-- GUI-based interaction using Java Swing/JavaFX (depending on implementation)
+- GUI-based interaction using Java Swing/JavaFX
 - Modular project structure for easy extension
 
 ---
