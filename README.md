@@ -1,5 +1,4 @@
 # Priority-vs-SRTF
-# CPU Scheduling Simulator
 
 A Java-based simulator for comparing CPU scheduling algorithms and analyzing their performance using standard scheduling metrics.
 
