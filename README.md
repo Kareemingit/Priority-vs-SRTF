@@ -197,8 +197,3 @@ This project was developed for educational purposes to help understand:
 - Process management
 - Scheduling performance analysis
 - Operating Systems fundamentals
-
----
-# License
-
-This project is open-source and available under the MIT License.
