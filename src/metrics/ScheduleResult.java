@@ -1,11 +1,14 @@
+package metrics;
+
 import java.util.ArrayList;
+import model.Process;
 
 public class ScheduleResult {
 
     public static class GanttEntry {
-        String pid;
-        int start;
-        int end;
+        public String pid;
+        public int start;
+        public int end;
 
         public GanttEntry(String pid, int start, int end) {
             this.pid = pid;
@@ -14,12 +17,12 @@ public class ScheduleResult {
         }
     }
 
-    ArrayList<String> gantt = new ArrayList<>();
-    ArrayList<GanttEntry> ganttEntries = new ArrayList<>();
-    ArrayList<Process> processes;
-    double avgWT;
-    double avgTAT;
-    double avgRT;
+    public ArrayList<String> gantt = new ArrayList<>();
+    public ArrayList<GanttEntry> ganttEntries = new ArrayList<>();
+    public ArrayList<Process> processes;
+    public double avgWT;
+    public double avgTAT;
+    public double avgRT;
 
     public ScheduleResult(ArrayList<Process> processes) {
         this.processes = processes;

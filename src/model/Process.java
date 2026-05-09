@@ -1,14 +1,16 @@
+package model;
+
 public class Process {
-    String pid;
-    int arrivalTime;
-    int burstTime;
-    int priority;
-    int remainingTime;
-    int completionTime;
-    int turnaroundTime;
-    int waitingTime;
-    int responseTime;
-    boolean started = false;
+    public String pid;
+    public int arrivalTime;
+    public int burstTime;
+    public int priority;
+    public int remainingTime;
+    public int completionTime;
+    public int turnaroundTime;
+    public int waitingTime;
+    public int responseTime;
+    public boolean started = false;
 
     public Process(String pid, int arrivalTime, int burstTime, int priority) {
         this.pid = pid;

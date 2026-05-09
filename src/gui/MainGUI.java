@@ -1,8 +1,12 @@
+package gui;
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.border.TitledBorder;
 import java.awt.*;
 import java.util.ArrayList;
+import scheduler.*;
+import model.Process;
+import metrics.*;
 
 public class MainGUI extends JFrame {
 

@@ -1,5 +1,7 @@
 package scheduler;
 import java.util.ArrayList;
+import metrics.ScheduleResult;
+import model.Process;
 
 public class PriorityScheduler {
     public static ScheduleResult run(ArrayList<Process> originalProcesses) {

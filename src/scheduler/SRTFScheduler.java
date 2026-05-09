@@ -1,5 +1,7 @@
+package scheduler;
 import java.util.ArrayList;
-
+import metrics.*;
+import model.Process;
 public class SRTFScheduler {
     public static ScheduleResult run(ArrayList<Process> originalProcesses) {
         ArrayList<Process> processes = new ArrayList<>();
