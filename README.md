@@ -26,29 +26,6 @@ The simulator evaluates and compares the algorithms using:
 
 ---
 
-# Project Structure
-
-```text
-src/
-│
-├── gui/
-│   └── MainGUI.java
-│
-├── metrics/
-│   └── ScheduleResult.java
-│
-├── model/
-│   └── Process.java
-│
-├── scheduler/
-│   ├── PriorityScheduler.java
-│   └── SRTFScheduler.java
-│
-├── util/
-│
-└── test-cases/
-```
-
 ## Folder Description
 
 | Folder | Description |
